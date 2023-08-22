@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #e7d3d3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+
+
+}
+
+.counter-Box {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 30px 50px;
+    padding: 10px;
+}
+
+.counter {
+    font-family: 'Tilt Prism', cursive;
+    font-size: 60px;
+    margin-top: 10px;
+}
+
+@media (max-width:480px) {
+    body {
+        flex-direction: column;
+        height: 250vh;
+
+    }
+
+}
